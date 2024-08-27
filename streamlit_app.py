@@ -66,7 +66,8 @@ def fo():
     if __name__ == "__main__":
         main()
     st.markdown("""
-                    .st-emotion-cache-12fmjuu {
+                <style>    
+                .st-emotion-cache-12fmjuu {
                     position: fixed;
                     top: 0px;
                     left: 0px;
@@ -87,5 +88,6 @@ def fo():
                         background-image: url(https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
                         background-size: cover;
                         }
+                </style>
                 """,unsafe_allow_html=True)
 fo()
