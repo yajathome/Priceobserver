@@ -65,5 +65,8 @@ def fo():
                 st.error("Could not retrieve weather information.")
     if __name__ == "__main__":
         main()
-    st.html('<video autoplay muted loop id="backgroundVideo" style=" position: fixed;right: 0;bottom: 0;min-width: 100%;min-height: 100%;z-index: -1;object-fit: cover;"><source src="vid.mp4" type="video/mp4">Your browser does not support HTML5 video.</video>')
+    video_url = "https://videos.pexels.com/video-files/3783928/3783928-hd_1920_1080_24fps.mp4"
+
+    # Display the video background
+    st.video(video_url, format="video/mp4", start_time=0)
 fo()
