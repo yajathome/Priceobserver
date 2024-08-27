@@ -65,11 +65,5 @@ def fo():
                 st.error("Could not retrieve weather information.")
     if __name__ == "__main__":
         main()
-    video_url = "https://example.com/path/to/your/video.mp4"
 
-    # Display the video (muted and looped)
-    st.video(video_url, format="video/mp4", start_time=0, key="background_video")
-
-    # Overlay other content
-    st.markdown("## Crop Recommendations")
 fo()
