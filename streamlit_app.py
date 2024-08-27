@@ -66,7 +66,7 @@ def fo():
     if __name__ == "__main__":
         main()
 fo()
-st.write("        farm_data = {
+st.write("farm_data = {
             'Farm Name': ['Farm A', 'Farm B', 'Farm C'],
             'Location': ['Location A', 'Location B', 'Location C'],
             'Crop': ['Wheat', 'Corn', 'Soybean'],
