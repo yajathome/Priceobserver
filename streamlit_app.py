@@ -65,5 +65,27 @@ def fo():
                 st.error("Could not retrieve weather information.")
     if __name__ == "__main__":
         main()
-
+    st.markdown("""
+                .st-emotion-cache-12fmjuu {
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                height: 3.75rem;
+                background: rgb(255, 255, 255);
+                outline: none;
+                z-index: 999990;
+                display: none;
+                }
+                .st-emotion-cache-bm2z3a {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    overflow: auto;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    background-image: url(https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+                    background-size: cover;
+                }
+                """,unsafe_allow_html=True)
 fo()
